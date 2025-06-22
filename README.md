@@ -451,6 +451,8 @@ Depending on severity, Tines routes the alert to different workflows:
 - High severity: Create a case in The Hive, send a Slack message, send an email with isolate option
 - Medium/Low: Just send a Slack message
 
+![Alert severity](images/alert_severity_branches.png)
+
 Automatic Case Creation in The Hive
 
 - Logged in with default credentials
@@ -480,6 +482,10 @@ Example to create a case in The Hive:
 }
 ```
 
+This is an example of a case that has been automatically created in The Hive and is ready for investigation:
+
+![Example case in The Hive](images/Case_created_in_TheHive.png)
+
 Slack Notification
 
 - Added a Slack card → Connected the Tines bot
@@ -488,6 +494,10 @@ Slack Notification
   - Alert summary
   - Severity
   - Link to The Hive case
+
+An example of the Slack message that will be generated:
+
+![Example Slack Message](images/example_slack_message.png)
 
 Email Alert with Isolation Option
 
@@ -543,6 +553,10 @@ Host Isolation via LimaCharlie
 Marking as False Positive
 
 - Clicking "Mark as False Positive" button triggers Tines to close the case in The Hive with the status false positive
+
+This is the entire Tines workflow:
+
+![Final Tines Story](images/Final_Tines_Workflow.png)
 
 ## Summary
 
