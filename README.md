@@ -520,6 +520,9 @@ LimaCharlie has detected an <b><<retrive_alerts_from_limacharlie.body.cat>></b><
 <br><br>
 <a href="<<PROMPT("false")>>" style="background-color: #6c757d; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin: 5px;">❌ Mark False Positive</a>
 ```
+An example of the email that will be generated:
+
+![Example email](images/Example_email.png)
 
 Host Isolation via LimaCharlie
 
